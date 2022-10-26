@@ -4,8 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: Hello, Bear Highness">
-    <meta name="description" content="Bear Highness">
+    <meta name="keywords" content="Mac下安装多个版本的JDK并随意切换, Bear Highness">
+    <meta name="description" content="
+JDK 版本已经更新到了 17，我们需要学习 JDK 的一些新特性，但是日常使用基本上都是基于 JDK8，因此，需要在 Mac 环境下安装多个版本的 JDK，并且确保能够随意切换。
+
+JDK 下载点击 官网 ，进入下载界面，
+同意协议内容">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +21,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签: Hello | Bear Highness</title>
+    <title>Mac下安装多个版本的JDK并随意切换 | Bear Highness</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
     <style>
@@ -47,9 +51,7 @@
 
 
 
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
     <link rel="stylesheet" href="/css/post.css">
-
 
 
 
@@ -340,137 +342,401 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    subtitle
-                
-            </div>
+    
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Mac下安装多个版本的JDK并随意切换</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
 
 
-    </div>
-</div>
-
-<main class="content">
+<main class="container content">
 
     
-
-<div id="tags" class="container chip-container">
+    <!-- 文章内容详情 -->
+<div id="artDetail">
     <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Mac/">
+                                <span class="chip bg-color">Mac</span>
+                            </a>
+                        
+                            <a href="/tags/JDK/">
+                                <span class="chip bg-color">JDK</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E7%8E%AF%E5%A2%83/" class="post-category">
+                                环境
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            <div class="tag-chips">
+
+            <div class="post-info">
                 
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-09-02
+                </div>
                 
-                <a href="/tags/Mac/" title="Mac: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Mac" style="background-color: #F9EBEA;">Mac
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
+
                 
+
                 
-                <a href="/tags/JDK/" title="JDK: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="JDK" style="background-color: #F5EEF8;">JDK
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    495
+                </div>
                 
+
                 
-                <a href="/tags/Hello/" title="Hello: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="Hello" style="background-color: #D5F5E3;">Hello
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
+
                 
             </div>
         </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.min.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <blockquote>
+<p>JDK 版本已经更新到了 17，我们需要学习 JDK 的一些新特性，但是日常使用基本上都是基于 JDK8，因此，需要在 Mac 环境下安装多个版本的 JDK，并且确保能够随意切换。</p>
+</blockquote>
+<h3 id="JDK-下载"><a href="#JDK-下载" class="headerlink" title="JDK 下载"></a>JDK 下载</h3><p>点击 <a target="_blank" rel="noopener" href="https://www.oschina.net/action/GoToLink?url=https://www.oracle.com/technetwork/java/javase/downloads/index.html">官网</a> ，进入下载界面，</p>
+<p>同意协议内容</p>
+<p>找到对应的 Mac 版本，</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>安装下载下来的文件，期间会要求输入一次电脑密码，然后自动安装完。</p>
+<p>如果显示文件已经损坏，打开 终端 输入</p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c">sudo spctl <span class="token operator">--</span>master<span class="token operator">-</span>disable<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>表示可以安装非 app store 的软件。</p>
+<blockquote>
+<p>这里我安装了 OracleJDK 的 8、11、17 三个 LTS 版本</p>
+</blockquote>
+<p>在/Library/Java/JavaVirtualMachines 目录下会出现三个目录：</p>
+<p><img src="https://bearcad.oss-cn-shanghai.aliyuncs.com/Code/JDK01.png" alt="JDK01"></p>
+<h3 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h3><blockquote>
+<p>Mac 下通过 bash_profile 文件来对环境信息进行配置。执行以下命令打开配置文件：</p>
+</blockquote>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">vim</span> ~/.bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>如果原本没有.bash_profile 文件，在运行 vim ~/.bash_profile 命令时会创建该文件。<br>根据环境变量信息新增 JDK 几个版本的相关内容：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># Java Config : Java家配置</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">JAVA8_HOME</span><span class="token operator">=</span>/Library/Java/JavaVirtualMachines/jdk-1.8.0_345.jdk/Contents/Home
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">JAVA17_HOME</span><span class="token operator">=</span>/Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">JAVA19_HOME</span><span class="token operator">=</span>/Library/Java/JavaVirtualMachines/jdk-19.0.1.jdk/Contents/Home
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token variable">${<span class="token environment constant">PATH</span>}</span><span class="token builtin class-name">:</span><span class="token variable">${JAVA_HOME}</span>/bin
+
+<span class="token comment"># config alias: 配置别名</span>
+<span class="token builtin class-name">alias</span> <span class="token assign-left variable">jdk8</span><span class="token operator">=</span><span class="token string">"export JAVA_HOME=<span class="token variable">$JAVA8_HOME</span>"</span>
+<span class="token builtin class-name">alias</span> <span class="token assign-left variable">jdk17</span><span class="token operator">=</span><span class="token string">"export JAVA_HOME=<span class="token variable">$JAVA17_HOME</span>"</span>
+<span class="token builtin class-name">alias</span> <span class="token assign-left variable">jdk19</span><span class="token operator">=</span><span class="token string">"export JAVA_HOME=<span class="token variable">$JAVA19_HOME</span>"</span>
+
+<span class="token comment"># config default :jdk 配置默认JDK</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">JAVA_HOME</span><span class="token operator">=</span><span class="token variable">$JAVA8_HOME</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token string">"<span class="token variable">$JAVA_HOME</span>:<span class="token environment constant">$PATH</span>"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>修改保存上述配置，对 bash_profile 进行编译生效</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">source</span> ~/.bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>如果使用的是 zshrc,则使用以下命令</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">source</span> ~/.zshrc<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>然后在终端执行 <code>java -version</code> 会发现 jdk 版本正常显示为 jdk8</p>
+<p><img src="https://bearcad.oss-cn-shanghai.aliyuncs.com/Code/JDK03.png" alt="JDK03"></p>
+<h3 id="任意切换-Java-环境"><a href="#任意切换-Java-环境" class="headerlink" title="任意切换 Java 环境"></a>任意切换 Java 环境</h3><blockquote>
+<p>如需要将 jdk 版本切换为 jdk11，直接输入 JDK11 环境变量的别名：jdk11 即可,然后查看版本</p>
+</blockquote>
+<p><img src="https://bearcad.oss-cn-shanghai.aliyuncs.com/Code/JDK02.png" alt="JDK02"></p>
+<h3 id="IDEA-中添加-JDK"><a href="#IDEA-中添加-JDK" class="headerlink" title="IDEA 中添加 JDK"></a>IDEA 中添加 JDK</h3><blockquote>
+<p>在 IDEA 的 Project Structure 设置中新增 JDK 的配置，便可使用新增的 JDK 进行开发了</p>
+</blockquote>
+<p><img src="https://bearcad.oss-cn-shanghai.aliyuncs.com/Code/IDEA01.png" alt="IDEA添加JDK"></p>
+<p><img src="https://bearcad.oss-cn-shanghai.aliyuncs.com/Code/IDEA02.png" alt="多个JDK可按需选择"></p>
+<p>若项目是多模块的，可以为每个模块指定不同的 JDK 版本</p>
+<p><img src="https://bearcad.oss-cn-shanghai.aliyuncs.com/Code/IDEA03.png" alt="不同模块指定不同JDK"></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">JinShuai</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://example.com/2021/09/02/mac-xia-an-zhuang-duo-ge-ban-ben-de-jdk-bing-sui-yi-qie-huan/">http://example.com/2021/09/02/mac-xia-an-zhuang-duo-ge-ban-ben-de-jdk-bing-sui-yi-qie-huan/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">JinShuai</a>
+                    !
+                </span>
+            </div>
+        
     </div>
-</div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Mac/">
+                                    <span class="chip bg-color">Mac</span>
+                                </a>
+                            
+                                <a href="/tags/JDK/">
+                                    <span class="chip bg-color">JDK</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="qq,qzone,wechat,weibo" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
 
     
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="Hello" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2021/09/01/hello-world/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                            
-                            <span class="card-title">Hello World</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Markdown/" class="post-category">
-                                Markdown
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
+</div>
+
                 </div>
             </div>
             
         </div>
-    </article>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2021/09/02/mac-xia-an-zhuang-duo-ge-ban-ben-de-jdk-bing-sui-yi-qie-huan/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Mac下安装多个版本的JDK并随意切换">
+                        
+                        <span class="card-title">Mac下安装多个版本的JDK并随意切换</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%8E%AF%E5%A2%83/" class="post-category">
+                                    环境
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Mac/">
+                        <span class="chip bg-color">Mac</span>
+                    </a>
+                    
+                    <a href="/tags/JDK/">
+                        <span class="chip bg-color">JDK</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/09/01/mac-ruan-jian-hui-zong/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Mac软件汇总">
+                        
+                        <span class="card-title">Mac软件汇总</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-01
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Mac/">
+                        <span class="chip bg-color">Mac</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+  <!-- 是否加载使用自带的 prismjs. -->
+  <script type="text/javascript" src="/libs/prism/prism.min.js"></script>
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    
+
 </main>
 
 
