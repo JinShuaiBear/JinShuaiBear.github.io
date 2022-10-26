@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-26T03:37:22.674Z</updated>
+  <updated>2022-10-26T04:00:20.722Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/10/26/fen-bu-shi-shi-wu/"/>
     <id>http://example.com/2022/10/26/fen-bu-shi-shi-wu/</id>
     <published>2022-10-26T02:00:00.000Z</published>
-    <updated>2022-10-26T03:37:22.674Z</updated>
+    <updated>2022-10-26T04:00:20.722Z</updated>
     
     
       
@@ -34,16 +34,10 @@
     
     
     
-    <category term="环境" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83/"/>
+    <category term="Java" scheme="http://example.com/categories/Java/"/>
     
     
     <category term="Java" scheme="http://example.com/tags/Java/"/>
-    
-    <category term="PostMan" scheme="http://example.com/tags/PostMan/"/>
-    
-    <category term="Nacos" scheme="http://example.com/tags/Nacos/"/>
-    
-    <category term="Seata" scheme="http://example.com/tags/Seata/"/>
     
   </entry>
   
@@ -82,7 +76,7 @@
     <link href="http://example.com/2021/09/01/mac-ruan-jian-hui-zong/"/>
     <id>http://example.com/2021/09/01/mac-ruan-jian-hui-zong/</id>
     <published>2021-09-01T02:00:00.000Z</published>
-    <updated>2022-10-14T15:21:11.534Z</updated>
+    <updated>2022-10-26T04:00:23.484Z</updated>
     
     
       
@@ -95,7 +89,7 @@
     
     
     
-    <category term="Markdown" scheme="http://example.com/categories/Markdown/"/>
+    <category term="软件" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
     <category term="Mac" scheme="http://example.com/tags/Mac/"/>
