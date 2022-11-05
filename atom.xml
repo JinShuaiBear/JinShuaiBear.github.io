@@ -42,6 +42,185 @@
   </entry>
   
   <entry>
+    <title>Axios网络请求</title>
+    <link href="http://example.com/2022/04/20/axios-wang-luo-qing-qiu/"/>
+    <id>http://example.com/2022/04/20/axios-wang-luo-qing-qiu/</id>
+    <published>2022-04-20T02:00:00.000Z</published>
+    <updated>2022-10-26T09:23:39.933Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;（4-20）axios网络请求&quot;&gt;&lt;a href=&quot;#（4-20）axios网络请求&quot; class=&quot;headerlink&quot; title=&quot;（4.20）axios网络请求&quot;&gt;&lt;/a&gt;（4.20）axios网络请求&lt;/h2&gt;&lt;h4</summary>
+        
+      
+    
+    
+    
+    <category term="Axios" scheme="http://example.com/categories/Axios/"/>
+    
+    
+    <category term="Axios" scheme="http://example.com/tags/Axios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>端路由VueRouter&amp;&amp;Vuex应用状态管理</title>
+    <link href="http://example.com/2022/04/17/qian-duan-lu-you-vuerouter/"/>
+    <id>http://example.com/2022/04/17/qian-duan-lu-you-vuerouter/</id>
+    <published>2022-04-17T02:00:00.000Z</published>
+    <updated>2022-10-26T09:52:46.947Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前端路由VueRouter-amp-amp-Vuex应用状态管理&quot;&gt;&lt;a href=&quot;#前端路由VueRouter-amp-amp-Vuex应用状态管理&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>异步任务和定时任务</title>
+    <link href="http://example.com/2022/04/13/yi-bu-ren-wu-he-ding-shi-ren-wu/"/>
+    <id>http://example.com/2022/04/13/yi-bu-ren-wu-he-ding-shi-ren-wu/</id>
+    <published>2022-04-13T02:00:00.000Z</published>
+    <updated>2022-10-26T09:59:26.938Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;异步任务和定时任务&quot;&gt;&lt;a href=&quot;#异步任务和定时任务&quot; class=&quot;headerlink&quot; title=&quot;异步任务和定时任务&quot;&gt;&lt;/a&gt;异步任务和定时任务&lt;/h1&gt;&lt;h2 id=&quot;一、实现Async异步任务&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://example.com/categories/Java/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://example.com/tags/SpringBoot/"/>
+    
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>嵌入式容器的配置与应用</title>
+    <link href="http://example.com/2022/04/08/qian-ru-shi-rong-qi-de-pei-zhi-yu-ying-yong/"/>
+    <id>http://example.com/2022/04/08/qian-ru-shi-rong-qi-de-pei-zhi-yu-ying-yong/</id>
+    <published>2022-04-08T02:00:00.000Z</published>
+    <updated>2022-10-26T09:57:10.652Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;嵌入式容器的配置与应用&quot;&gt;&lt;a href=&quot;#嵌入式容器的配置与应用&quot; class=&quot;headerlink&quot; title=&quot;嵌入式容器的配置与应用&quot;&gt;&lt;/a&gt;嵌入式容器的配置与应用&lt;/h2&gt;&lt;h4 id=&quot;嵌入式容器的运行参数配置&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="SpringBoot" scheme="http://example.com/categories/SpringBoot/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://example.com/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>生命周期内的拦截过滤与监听</title>
+    <link href="http://example.com/2022/04/04/sheng-ming-zhou-qi-nei-de-lan-jie-guo-lu-yu-jian-ting/"/>
+    <id>http://example.com/2022/04/04/sheng-ming-zhou-qi-nei-de-lan-jie-guo-lu-yu-jian-ting/</id>
+    <published>2022-04-04T02:00:00.000Z</published>
+    <updated>2022-10-26T09:55:12.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;生命周期内的拦截过滤与监听&quot;&gt;&lt;a href=&quot;#生命周期内的拦截过滤与监听&quot; class=&quot;headerlink&quot; title=&quot;生命周期内的拦截过滤与监听&quot;&gt;&lt;/a&gt;生命周期内的拦截过滤与监听&lt;/h2&gt;&lt;h4</summary>
+        
+      
+    
+    
+    
+    <category term="Spring" scheme="http://example.com/categories/Spring/"/>
+    
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手动搭建webpack脚手架</title>
+    <link href="http://example.com/2022/04/01/shou-dong-da-jian-webpack-jiao-shou-jia/"/>
+    <id>http://example.com/2022/04/01/shou-dong-da-jian-webpack-jiao-shou-jia/</id>
+    <published>2022-04-01T02:00:00.000Z</published>
+    <updated>2022-10-26T10:17:38.768Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;手动搭建webpack脚手架&quot;&gt;&lt;a href=&quot;#手动搭建webpack脚手架&quot; class=&quot;headerlink&quot; title=&quot;手动搭建webpack脚手架&quot;&gt;&lt;/a&gt;手动搭建webpack脚手架&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+    <category term="Webpack" scheme="http://example.com/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot配置管理</title>
+    <link href="http://example.com/2022/03/20/springboot-pei-zhi-guan-li/"/>
+    <id>http://example.com/2022/03/20/springboot-pei-zhi-guan-li/</id>
+    <published>2022-03-20T02:00:00.000Z</published>
+    <updated>2022-10-26T10:02:28.792Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;SpringBoot配置管理&quot;&gt;&lt;a href=&quot;#SpringBoot配置管理&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot配置管理&quot;&gt;&lt;/a&gt;SpringBoot配置管理&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="SpringBoot" scheme="http://example.com/categories/SpringBoot/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://example.com/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mac下安装多个版本的JDK并随意切换</title>
     <link href="http://example.com/2021/09/02/mac-xia-an-zhuang-duo-ge-ban-ben-de-jdk-bing-sui-yi-qie-huan/"/>
     <id>http://example.com/2021/09/02/mac-xia-an-zhuang-duo-ge-ban-ben-de-jdk-bing-sui-yi-qie-huan/</id>
