@@ -112,9 +112,9 @@
     <category term="Java" scheme="http://example.com/categories/Java/"/>
     
     
-    <category term="SpringBoot" scheme="http://example.com/tags/SpringBoot/"/>
-    
     <category term="Java" scheme="http://example.com/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="http://example.com/tags/SpringBoot/"/>
     
   </entry>
   
